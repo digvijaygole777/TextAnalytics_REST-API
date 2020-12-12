@@ -105,7 +105,7 @@ app.get('/keyphrases', async (req, res) => {
         res.sendStatus(500) ;
         
     } finally {
-        console.log('Key phrases detected');
+        console.log('Key phrases extracted');
     }
    
 })
